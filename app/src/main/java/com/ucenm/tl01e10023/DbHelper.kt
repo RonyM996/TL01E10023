@@ -5,7 +5,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-// Cambiamos el 1 por un 3 al final de esta línea para forzar la actualización
+
 class DbHelper(context: Context) : SQLiteOpenHelper(context, "ContactosDB", null, 3) {
 
     override fun onCreate(db: SQLiteDatabase?) {
